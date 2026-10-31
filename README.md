@@ -155,7 +155,7 @@ Se usa exactamente la correspondencia de GRUPO_EDAD1 solicitada: 0–4 neonatal;
 ![histograma.png](capturas/histograma.png)
 
 ### Diez causas principales
-Se agrupa por código CIE-10 de cuatro caracteres y se ordena de mayor a menor. I219, infarto agudo del miocardio sin otra especificación, concentra 35.088 registros. J449 presenta 7.210. El agrupamiento a tres caracteres puede producir un orden diferente.
+Se agrupa por el código CIE-10 registrado en el archivo, que puede tener tres o cuatro caracteres, y se ordenan las causas de mayor a menor según el número de defunciones. I219, infarto agudo del miocardio sin otra especificación, concentra 35.088 registros. J449 presenta 7.210. 
 
 ![tabla.png](capturas/tabla.png)
 
