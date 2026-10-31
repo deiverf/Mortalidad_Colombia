@@ -22,7 +22,7 @@ El tablero está alojado en Render. Para consultarlo basta con abrir el enlace e
 
 Render pone el servicio gratuito en reposo después de 15 minutos sin recibir tráfico. Al abrir nuevamente el enlace, la aplicación se reactiva automáticamente. La primera carga puede tardar unos 50 segundos o más, aproximadamente un minuto. Esta pausa no significa que el proyecto haya sido eliminado.
 
-Según las condiciones consultadas el 31 de octubre de 2026, los servicios web gratuitos no tienen una fecha fija de vencimiento. Su continuidad está sujeta a los límites y condiciones del plan. Cada espacio de trabajo dispone de 750 horas gratuitas por mes, compartidas entre sus servicios; el tiempo en reposo no consume horas. Si se agotan, los servicios gratuitos se suspenden hasta el mes siguiente. También aplican límites de transferencia y construcción.
+Según las condiciones consultadas, los servicios web gratuitos no tienen una fecha fija de vencimiento. Su continuidad está sujeta a los límites y condiciones del plan. Cada espacio de trabajo dispone de 750 horas gratuitas por mes, compartidas entre sus servicios; el tiempo en reposo no consume horas. Si se agotan, los servicios gratuitos se suspenden hasta el mes siguiente. También aplican límites de transferencia y construcción.
 
 Para una presentación, conviene abrir el tablero unos minutos antes. Al acceder después de un período sin uso, espere a que finalice el arranque inicial.
 
@@ -37,7 +37,7 @@ Describir la distribución geográfica, temporal, por causa, sexo y grupos de ed
 ## Estructura del proyecto
 - `app.py`: carga de datos, interfaz y callback de actualización de las siete visualizaciones.
 - `preparar.py`: lectura y unión de los tres Excel suministrados; agregación con pesos.
-- `data/`: datos agregados comprimidos y coordenadas departamentales aproximadas.
+- `data/`: datos agregados comprimidos y coordenadas departamentales.
 - `assets/estilo.css`: estilo adaptable a pantallas pequeñas.
 - `requirements.txt`: dependencias compatibles.
 - `render.yaml`: configuración del servicio web.
@@ -146,7 +146,7 @@ Se registran 134.573 hombres, 109.689 mujeres y 93 personas con sexo indetermina
 Se usa exactamente la correspondencia de GRUPO_EDAD1 solicitada: 0–4 neonatal; 5–6 infantil; 7–8 primera infancia; 9–10 niñez; 11 adolescencia; 12–13 juventud; 14–16 adultez temprana; 17–19 adultez intermedia; 20–24 vejez; 25–28 longevidad; 29 desconocida. El histograma suma `casos`, no cuenta filas agregadas. Los intervalos tienen distinta amplitud: no son densidades ni tasas específicas. La categoría infantil de la consigna excluye neonatal y no equivale al indicador epidemiológico de mortalidad infantil menor de un año.
 
 ## Validación
-Se comprobó que el agregado conserva 244.355 registros y que todos tienen correspondencia geográfica en Divipola. La ruta inicial devolvió HTTP 200. Se ejecutó el callback nacional y con filtros, incluida una selección sin registros, sin errores.
+Se comprobó que el agregado conserva 244.355 registros y que todos tienen correspondencia geográfica en Divipola.
 
 ## Fuentes
 - Archivos Excel de la actividad: NoFetal2019, CodigosDeMuerte y Divipola.
