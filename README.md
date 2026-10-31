@@ -127,6 +127,8 @@ El conjunto suministrado contiene **244.355 defunciones**. Todos los filtros act
 ### Mapa de símbolos por departamento
 Bogotá registra 38.760 casos, Antioquia 34.473 y Valle del Cauca 28.443. Son volúmenes absolutos; no implican mayor riesgo. El tamaño del símbolo representa casos y su ubicación es la media de coordenadas municipales de Divipola, no un centroide oficial. Se utiliza la geografía COD_DANE del archivo sin asumir que corresponde a residencia. El fondo geográfico de Plotly requiere acceso a su recurso cartográfico en línea.
 
+![mapa.png](capturas/mapa.png)
+
 ### Línea mensual
 Diciembre presenta el máximo con 21.678 registros. Le siguen julio (21.372) y enero (21.354). Un solo año no permite establecer tendencia de largo plazo ni atribuir causas a las variaciones. Los meses se presentan del 1 al 12.
 
@@ -158,7 +160,5 @@ Se comprobó que el agregado conserva 244.355 registros y que todos tienen corre
 ## Evidencia visual del tablero
 
 La imagen permite consultar la presentación general del tablero. Las interpretaciones de cada gráfico se encuentran en la sección de visualizaciones.
-
-![Tablero de mortalidad en Colombia durante 2019](capturas/tablero.png)
 
 [Ver la captura en GitHub](https://github.com/deiverf/Mortalidad_Colombia/blob/main/capturas/tablero.png)
